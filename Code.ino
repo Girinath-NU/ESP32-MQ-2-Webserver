@@ -1,7 +1,7 @@
-#include <WiFi.h>
+ice#include <WiFi.h>
 
-const char* ssid = "realme P1 5G";     // Replace with your network SSID
-const char* password = "sastra123"; // Replace with your network password
+const char* ssid = "Device_Name";     // Replace with your network SSID
+const char* password = "Password"; // Replace with your network password
 WiFiServer server(80);  // Create a server that listens on port 80 (HTTP port)
 
 int mq2pin = 33;  // Pin connected to MQ2 sensor
