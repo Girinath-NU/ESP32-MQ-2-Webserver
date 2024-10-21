@@ -1,4 +1,4 @@
-ice#include <WiFi.h>
+#include <WiFi.h>
 
 const char* ssid = "Device_Name";     // Replace with your network SSID
 const char* password = "Password"; // Replace with your network password
